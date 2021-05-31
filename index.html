@@ -8,9 +8,9 @@
   <title>pixar</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/styles.css"> -->
-  <link rel="stylesheet" href="./styles.main/styles.main.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- <link rel="stylesheet" href="./styles.main/styles.main.css"> -->
 </head>
 
 <body>
@@ -28,18 +28,18 @@
             <li class="nav-links">
               <a class="nav-link links" href="#">Xizmatlar</a>
               <ul class="xizmat">
-                <li class="xizmat-item"><a class="xizmat-link" target="_blank" href="#">Vebsayt</a></li>
-                <li class="xizmat-item"><a class="xizmat-link" target="_blank" href="#">Telegram bot</a></li>
-                <li class="xizmat-item"><a class="xizmat-link" target="_blank" href="#">SMM</a></li>
-                <li class="xizmat-item"><a class="xizmat-link" target="_blank" href="#">Grafik dizayn</a></li>
-                <li class="xizmat-item"><a class="xizmat-link" target="_blank" href="#">CRM tizim</a></li>
+                <li class="xizmat-item"><a class="xizmat-link" href="#vebsite">Vebsayt</a></li>
+                <li class="xizmat-item"><a class="xizmat-link" href="#telegram-bot">Telegram bot</a></li>
+                <li class="xizmat-item"><a class="xizmat-link" href="#smm-icon">SMM</a></li>
+                <li class="xizmat-item"><a class="xizmat-link" href="#grafik">Grafik dizayn</a></li>
+                <li class="xizmat-item"><a class="xizmat-link" href="#crm-icon">CRM tizim</a></li>
               </ul>
             </li>
-            <li class="nav-link"><a class="links" target="_blank" href="#">Portfolio</a></li>
-            <li class="nav-link"><a class="links" target="_blank" href="#">Jamoa</a></li>
-            <li class="nav-link"><a class="links" target="_blank" href="#">Blog</a></li>
-            <li class="nav-link"><a class="links" target="_blank" href="#">Kontaktlar</a></li>
-            <li class="tel-item"><a class="tel-link" target="_blank" href="#">+99890 921 37 11</a></li>
+            <li class="nav-link"><a class="links" href="#">Portfolio</a></li>
+            <li class="nav-link"><a class="links" href="#">Jamoa</a></li>
+            <li class="nav-link"><a class="links" href="#">Blog</a></li>
+            <li class="nav-link"><a class="links" href="#">Kontaktlar</a></li>
+            <li class="tel-item"><a class="tel-link" href="tel:+998909213711">+99890 921 37 11</a></li>
           </ul>
         </div>
       </div>
@@ -72,7 +72,7 @@
 
         <div class="main-header-wrapper">
           <div class="main-header-middle">
-            <a class="link" href="./vebsite.html">
+            <a class="link" id="vebsite" href="./vebsite.html">
               <uL class="web-site">
                 <li class="website-item">
                   <h2 class="website-heading veb-site-tuzish">Vebsayt tuzish</h2>
@@ -83,7 +83,7 @@
               </uL>
             </a>
 
-            <a class="link" href="./telegram-bot.html">
+            <a class="link" id="telegram-bot" href="./telegram-bot.html">
               <uL class="web-site telegram2">
                 <li class="website-item">
                   <h2 class="website-heading telegram-bot">Telegram bot</h2>
@@ -94,7 +94,7 @@
               </uL>
             </a>
 
-            <a class="link" href="./smm.html">
+            <a class="link" id="smm-icon" href="./smm.html">
               <uL class="web-site smm">
                 <li class="website-item">
                   <h2 class="website-heading smm-item">SMM</h2>
@@ -107,7 +107,7 @@
 
             <div class="main-header-down">
               <a class="link" href="./grafik-dizayn.html">
-                <uL class="web-site">
+                <uL id="grafik" class="web-site">
                   <li class="website-item">
                     <h2 class="website-heading grafik-dizayn">Grafik dizayn</h2>
                   </li>
@@ -117,7 +117,7 @@
                 </uL>
               </a>
 
-              <a class="link" href="./crm.html">
+              <a class="link" id="crm-icon" href="./crm.html">
                 <uL class="web-site crm">
                   <li class="website-item">
                     <h2 class="website-heading crm-tizim">CRM tizimlar</h2>
@@ -205,17 +205,20 @@
         <p class="form-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex,
           eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
 
-        <form class="reference">
-          <input class="icon name" type="text" placeholder="Ismingiz" required>
-          <input class="icon telefon" type="tel" placeholder="Telefon raqamingiz" required>
+        <form class="reference" action="https://echo.htmlacademy.ru" method="POST">
+          <input class="icon name" type="text" aria-label="Ismingiz" placeholder="Ismingiz" required>
+          <input class="icon telefon" type="tel" aria-label="Telefon raqamingiz" placeholder="Telefon raqamingiz" required>
           <select class="icon xizmat-turi">
-            <option class="reference-text">Xizmat turi</option>
+            <option class="reference-text" selected disabled>Xizmat turi</option>
+            <option class="reference-text">Telegram bot</option>
+            <option class="reference-text">Veb site</option>
           </select>
-          <button class="btn" type="button">Buyurtma berish</button>
+          <button class="btn" type="submit">Buyurtma berish</button>
         </form>
       </div>
     </div>
   </section>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-item container">

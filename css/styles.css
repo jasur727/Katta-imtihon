@@ -59,16 +59,17 @@ body {
 .links {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  margin-right: 32px;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  padding: 16px;
   color: #000000;
   transition: border 0.5s ease, color 0.5s ease, background-color 0.5s ease;
 }
 
 .links:hover {
   border-bottom: 3px solid black;
+  padding: 16px;
 }
 
 .links:active {
@@ -89,14 +90,13 @@ body {
   margin: 0;
   padding: 0;
   display: none;
-  margin-right: 9px;
   position: absolute;
   z-index: 10;
-  left: -31px;
+  left: -18px;
   top: 100%;
+  padding: 8px 0;
   background-color: #ffffff;
   box-shadow: 0px 4px 24px rgb(0 0 0 / 10%);
-  margin-top: 5px;
 }
 
 .nav-links:hover .xizmat {
@@ -107,37 +107,24 @@ body {
 .xizmat-item {
   font-family: 'Open Sans', sans-serif;
   list-style: none;
-  margin-top: 10px;
-  /* padding-top: 16px;  */
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  padding-bottom: 16px;
   transition: background-color 0.5s ease, color 0.5s ease;
-  white-space: nowrap;
 }
 
 
 
 .xizmat-link {
-  text-decoration: none;
-  padding: 4px 8px;
   display: block;
-  background-color: #fff;
-  width: 100%;
+  padding: 8px 16px;
+  text-decoration: none;
+  white-space: nowrap;
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .xizmat-link:hover {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: static;
-  width: 124px;
-  height: 40px;
-  left: 0px;
-  top: 8px;
   background: #00BAFC;
   color: #fff;
 }
@@ -190,6 +177,7 @@ body {
 .tel-link:active {
   background-color: rgba(0, 186, 252, 0.6);
   color: #fff;
+  border: 2px solid rgba(0, 186, 252);
 }
 
 .hero {
@@ -259,11 +247,6 @@ body {
 .hero-link:active {
   background: rgba(0, 186, 252, 0.6);
   border-radius: 5px;
-}
-
-.hero-iframe {
-  margin-bottom: 80px;
-
 }
 
 .main-heading {
