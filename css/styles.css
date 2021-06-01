@@ -26,6 +26,7 @@ body {
 
 .header {
   position: relative;
+  margin: 0;
 }
 
 .site-header {
@@ -64,7 +65,8 @@ body {
   line-height: 24px;
   padding: 16px;
   color: #000000;
-  transition: border 0.5s ease, color 0.5s ease, background-color 0.5s ease;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
 }
 
 .links:hover {
@@ -92,11 +94,12 @@ body {
   display: none;
   position: absolute;
   z-index: 10;
-  left: -18px;
+  left: -13px;
   top: 100%;
   padding: 8px 0;
   background-color: #ffffff;
   box-shadow: 0px 4px 24px rgb(0 0 0 / 10%);
+  margin-top: 8px;
 }
 
 .nav-links:hover .xizmat {
@@ -177,7 +180,7 @@ body {
 .tel-link:active {
   background-color: rgba(0, 186, 252, 0.6);
   color: #fff;
-  border: 2px solid rgba(0, 186, 252);
+  border: 3px solid rgba(0, 186, 252);
 }
 
 .hero {
@@ -413,7 +416,7 @@ body {
 
 .xizmatlar-sah-otish {
   color: #00BAFC;
-  ;
+
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -424,7 +427,6 @@ body {
   padding: 0;
   display: flex;
   justify-content: center;
-  /* margin-top: 40px; */
   align-items: center;
 }
 
@@ -526,44 +528,6 @@ body {
   justify-content: center;
 }
 
-/* footer */
-
-.footer-item {
-  display: flex;
-  position: relative;
-  align-items: center;
-}
-
-.footer {
-  background-color: rgb(30, 30, 30);
-}
-
-.copyright {
-  color: #fff;
-}
-
-.copyright-heading {
-  margin: 0;
-  padding: 0;
-  padding: 20px 0;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 130%;
-  letter-spacing: 0.5px;
-  color: #FFFFFF;
-
-}
-
-.nullem-item {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  color: #FFFFFF;
-  width: 320px;
-}
-
 /* FORM */
 .section-4 {
   background-color: rgba(0, 186, 252, 1);
@@ -654,7 +618,6 @@ body {
 .footer-item {
   display: flex;
   position: relative;
-  align-items: center;
   padding: 56px 0;
 }
 
@@ -668,14 +631,12 @@ body {
 
 .copyright-heading {
   margin: 0;
-  padding: 0;
-  padding: 20px 0;
+  padding-bottom: 20px;
   font-weight: bold;
   font-size: 20px;
   line-height: 130%;
   letter-spacing: 0.5px;
   color: #FFFFFF;
-
 }
 
 .nullem-item {
@@ -691,7 +652,7 @@ body {
 .footer-left {
   display: flex;
   margin-left: 100px;
-  margin-right: 87px;
+
 }
 
 .sayt-item {
@@ -721,9 +682,8 @@ body {
   opacity: 0.5;
 }
 
-
 .biz-internet{
-  margin-left: 87px;
+  margin-left: 80px;
 }
 
 .internet-item {
