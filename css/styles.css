@@ -709,12 +709,13 @@ body {
   color: #fff;
   display: flex;
   align-items: center;
-  transition: color 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .internet-link:hover{
   color: #00BAFC;
   opacity: 0.8;
+  transform: rotate(180deg);
 }
 
 .internet-link:active{
@@ -731,7 +732,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 8px;
+  /* transition: 0.5s ease; */
 }
+
+
 
 .facebook::before {
   content: '';
