@@ -196,6 +196,11 @@ body {
   padding: 80px 0;
 }
 
+.hero-iframe{
+  border: none;
+  border-radius: 5px;
+}
+
 
 .hero-heading {
   margin: 0;
@@ -252,6 +257,10 @@ body {
 .hero-link:active {
   background: rgba(0, 186, 252, 0.6);
   border-radius: 5px;
+}
+
+.we-work{
+  margin-bottom: 56px;
 }
 
 .main-heading {
@@ -353,7 +362,6 @@ body {
   width: 320px;
   padding: 24px;
   margin-bottom: 50px;
-  /* margin-left: 70px; */
   transition: box-shadow 0.3s ease;
 }
 
@@ -451,6 +459,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 16px;
+}
+
+.main-middle{
+  margin-top: 56px;
 }
 
 .job{
@@ -759,3 +771,5 @@ body {
   background-position: center;
   margin-right: 8px;
 }
+
+/* XIZMATLAR QISMI */
