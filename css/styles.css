@@ -655,6 +655,10 @@ body {
 
 }
 
+.sayt{
+  padding: 56px 0;
+}
+
 .sayt-item {
   list-style: none;
   margin-top: 15px;
@@ -680,6 +684,10 @@ body {
 .sayt-link:active{
   color: #00BAFC;
   opacity: 0.5;
+}
+
+.contact{
+  padding-bottom: 56px;
 }
 
 .biz-internet{
