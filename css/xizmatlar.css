@@ -309,12 +309,14 @@ button:hover{
   background-color: rgba(0, 186, 252, 0.8);
   color: #fff;
   border-radius: 5;
+  text-decoration: none;
 }
 
 button:active{
   background-color: rgba(0, 186, 252, 0.6);
   color: #fff;
   border-radius: 5;
+  text-decoration: none;
 }
 
 .site-up{
